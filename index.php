@@ -39,7 +39,7 @@
 <body>
 
 	<?php 
-    $connect = mysqli_connect('localhost','root','','music');
+    $connect = mysqli_connect('3.128.54.48','thanhcong','123@123a','music');
     if(!$connect)
     {
       echo "Connection failed";
@@ -119,10 +119,10 @@
   </ol>
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img class="d-block w-100" style= "margin: auto; max-width: 800px;" src="https://media.4rgos.it/i/Argos/sb-2322-m007-25-01-designafriend-doll?maxW=768&qlt=75&fmt=webp" alt="First slide">
+      <img class="d-block w-100" style= "margin: auto; max-width: 800px;" src="https://i.ytimg.com/vi/C-pyMcda5Lw/maxresdefault.jpg" alt="First slide">
     </div>
     <div class="carousel-item">
-      <img class="d-block w-100" style= "margin: auto; max-width: 800px;" src="https://media.4rgos.it/i/Argos/sb-3322-m007-25-01-lego25?maxW=768&qlt=75&fmt=webp" alt="Second slide">
+      <img class="d-block w-100" style= "margin: auto; max-width: 800px;" src="https://i.ytimg.com/vi/C-pyMcda5Lw/maxresdefault.jpg" alt="Second slide">
     </div>
     <div class="carousel-item">
       <img class="d-block w-100" style= "margin: auto; max-width: 800px;" src="https://media.4rgos.it/i/Argos/sb-3422-m007-25-01-2489533-1475407-2209359-toys?maxW=768&qlt=75&fmt=webp" alt="Third slide">

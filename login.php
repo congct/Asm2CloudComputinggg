@@ -10,7 +10,7 @@
 </head>
 <body>
 	<?php 
-$connect = mysqli_connect('localhost', 'root', '', 'music');
+$connect = mysqli_connect('localhost','root','','music','3307');
 if($connect){
 	echo "";
 }else{
@@ -34,7 +34,7 @@ if($connect){
 		</form>
 	</div>
 <?php 
-$connect = mysqli_connect('localhost', 'root', '', 'music');
+$connect = mysqli_connect('3.128.54.48','thanhcong','123@123a','music');
 if($connect){
 	echo "";
 }else{

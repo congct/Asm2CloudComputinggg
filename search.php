@@ -7,8 +7,8 @@
 </head>
 <body>
 <?php
-	$conn = mysqli_connect('localhost','root','','music');
-    if(!$conn)
+	$connect = mysqli_connect('3.128.54.48','thanhcong','123@123a','music');
+    if(!$connect)
     {
       echo "Kết nối thất bại";
     }
@@ -24,7 +24,7 @@
 			<?php
 			if( !empty($search))
 			{
-				$rs = mysqli_query($conn, "SELECT * FROM song WHERE song.song_name LIke '%{$search}%' ");
+				$rs = mysqli_query($connect, "SELECT * FROM song WHERE song.song_name LIke '%{$search}%' ");
 				while($row = mysqli_fetch_assoc($rs)) {
 					?>
 					<div class="card" style="background-color: white;margin-top: 20px; margin-left: 35px;overflow: auto; width: 270px; border: 2px solid #F8ABAB;border-radius: 1px; border-bottom: 6px solid #FCA5A5; float: left;">
